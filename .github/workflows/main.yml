@@ -1,4 +1,4 @@
-name: Linux Self Hosted Workflow
+name: Linux Self Hosted Workflows
 
 on: push
 
