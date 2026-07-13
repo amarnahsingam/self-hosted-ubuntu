@@ -4,10 +4,9 @@ on: push
 
 jobs:
   build:
-    runs-on:
-      - self-hosted
-      - linux
+    runs-on:ubuntu01
+      
 
-    steps:
+   steps:
       - name: Display Message
         run: echo "Running on Linux Self-Hosted Runner"
