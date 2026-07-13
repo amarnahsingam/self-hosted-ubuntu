@@ -1,0 +1,13 @@
+name: Linux Self Hosted Workflow
+
+on: push
+
+jobs:
+  build:
+    runs-on:
+      - self-hosted
+      - linux
+
+    steps:
+      - name: Display Message
+        run: echo "Running on Linux Self-Hosted Runner"
